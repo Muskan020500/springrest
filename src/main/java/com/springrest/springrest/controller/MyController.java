@@ -18,6 +18,7 @@ public class MyController {
         return "changing the text of home";
     }
     //get the courses
+
 @GetMapping("/courses")
     public List<course> getCourse(){
        return this.service.getCourse();
