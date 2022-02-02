@@ -17,6 +17,7 @@ public class MyController {
     public String home(){
         return "changing the text of home";
     }
+
     //get the courses
 @GetMapping("/courses")
     public List<course> getCourse(){
